@@ -26,7 +26,7 @@ while 1:
                 print "WAIT"
         elif S > G + 1:
             print "SLOW"
-        elif S < R - X or S < g:
+        elif S < R - X or S < G:
             print "SPEED"
         elif S >= G + R - X - 1:
             jumped = True
